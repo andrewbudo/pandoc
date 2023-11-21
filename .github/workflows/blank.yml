@@ -32,3 +32,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Install soft
+        run: |
+          sudo apt update
+          sudo apt install pandoc
+                
